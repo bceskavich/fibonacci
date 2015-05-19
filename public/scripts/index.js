@@ -6,7 +6,7 @@ var Sequence = React.createClass({
   },
   componentDidMount: function() {
     this.setState({data: this.props.data});
-    setInterval(this.addToSequence, 4000);
+    setInterval(this.addToSequence, 2000);
   },
   // Logic to calculate the sequence
   addToSequence: function(){
