@@ -9,7 +9,6 @@
   "author": "bceskavich",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.12.4",
-    "react": "^0.13.3"
+    "express": "^4.12.4"
   }
 }
