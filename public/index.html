@@ -4,9 +4,31 @@
     <title>Fibonacci Counter</title>
     <style>
 
+      body {
+        font-family: 'Avenir', 'Helvetica', Arial, sans-serif;
+      }
+
+      #info {
+        position: absolute;
+      }
+
+      #info p {
+        font-weight: 300;
+        line-height: 1;
+        margin: 5px 0px;
+      }
+
+      #info a {
+        text-decoration: none;
+        color: #006aab;
+      }
+
+      #info a:hover {
+        text-decoration: underline;
+      }
+
       .sequence {
         text-align: center;
-        font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
         font-size: 50px;
         color: #333;
         font-weight: bold;
@@ -15,10 +37,15 @@
     </style>
   </head>
   <body>
+    <div id="info">
+      <p><strong>Fibonacci Counter</strong></p>
+      <p>Built with React &amp; ExpressJS</p>
+      <p><a href="https://github.com/bceskavich/fibonacci">View the source</a></p>
+    </div>
+
     <div id="content">
     </div>
     <script src="https://fb.me/react-0.13.3.min.js"></script>
-    <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
-    <script type="text/jsx" src="scripts/index.js"></script>
+    <script type="text/javascript" src="scripts/build/index.js"></script>
   </body>
 </html>
